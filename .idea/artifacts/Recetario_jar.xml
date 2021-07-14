@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Recetario:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Recetario_jar</output-path>
+    <root id="archive" name="Recetario.jar">
+      <element id="module-output" name="Recetario" />
+    </root>
+  </artifact>
+</component>

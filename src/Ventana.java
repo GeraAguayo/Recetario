@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Locale;
@@ -20,6 +21,7 @@ public class Ventana extends JFrame {
     //Metodo constructor
     public Ventana(){
         this.setTitle("Recetario\uD83C\uDF7F");
+        this.setIconImage(Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("Imagenes/logo.png")));
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setContentPane(panel);
         this.pack();
@@ -67,6 +69,7 @@ public class Ventana extends JFrame {
                 }
             }
         });
+
 
         //Lo que pasa si elige el boton Bizcocho de Vainilla
         btnBizcochoVainilla.addActionListener(new ActionListener() {

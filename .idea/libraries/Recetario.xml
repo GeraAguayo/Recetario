@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Recetario">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Recetario_jar/Recetario.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -6,7 +6,7 @@ import java.util.Locale;
 
 public class Ventana extends JFrame {
     private JPanel panel;
-    private JLabel titulo;
+    private JLabel imagen;
     private JButton btnBizcochoVainilla;
     private JButton btnGalletaMantequilla;
     private JButton btnBetunQuesoCrema;
@@ -14,20 +14,20 @@ public class Ventana extends JFrame {
     private JButton btnPanEsponja;
     private JButton btnPastelZanahoria;
     private JButton btnBetunMantequilla;
+    private JLabel etqTitulo;
     private JTextField respuestaUsr;
     private JButton btnBuscar;
 
 
     //Metodo constructor
     public Ventana(){
-        this.setTitle("Recetario\uD83C\uDF7F");
+        this.setTitle("Recetario");
         this.setIconImage(Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("Imagenes/logo.png")));
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setContentPane(panel);
         this.pack();
         this.setSize(800,600);
         this.setLocationRelativeTo(null);
-
         //Lo que pasa si presiona el boton Betun de mantequilla
         btnBetunMantequilla.addActionListener(new ActionListener() {
             @Override

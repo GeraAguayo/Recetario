@@ -1,2 +1,2 @@
-# Recetario
-Un recetario con muchas recetas faciles de realizar
+# Guia de instalacion
+
